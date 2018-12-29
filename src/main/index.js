@@ -1,6 +1,6 @@
 'use strict'
 
-import { app, BrowserWindow, ipcMain } from 'electron'
+import { app, BrowserWindow, ipcMain, screen } from 'electron'
 
 /**
  * Set `__static` path to static files in production
@@ -19,13 +19,13 @@ function createWindow () {
   /**
    * Initial window options
    */
-  mainWindow = new BrowserWindow({
-    height: 563,
-    useContentSize: true,
-    width: 1000
-  })
+  const {width, height} = screen.getPrimaryDisplay().workAreaSize
 
+  mainWindow = new BrowserWindow({width, height})
+
+  mainWindow.maximize()
   mainWindow.loadURL(winURL)
+  mainWindow.show()
 
   mainWindow.on('closed', () => {
     mainWindow = null
