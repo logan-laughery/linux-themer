@@ -1,0 +1,71 @@
+[options]
+fullscreen = true
+font = Monospace 10
+
+# [colors]
+# cursor  = #FF8E31
+# background  = #263238
+# color0  = #263238
+# color8  = #32444B
+# #red
+# color1  = #FF9800
+# color9  = #EA8842
+# #green
+# color2  = #8BC34A
+# color10 = #97C959
+# #yellow
+# color3  = #FFC107
+# color11 = #F69B0E
+# #blue
+# color4  = #03A9F4
+# color12 = #7DCFC7
+# #magenta
+# color5  = #E91E63
+# color13 = #876CC1
+# #cyan
+# color6  = #009688
+# color14 = #26A292
+# #white -- symmetric to blue
+# #color7  = #CFD8DC
+# #color15 = #EFF2EE
+
+[colors]
+
+# special
+foreground      = #657b83
+foreground_bold = #657b83
+cursor          = #657b83
+background      = #fdf6e3
+
+# black
+color0  = #073642
+color8  = #002b36
+
+# red
+color1  = #dc322f
+color9  = #cb4b16
+
+# green
+color2  = #859900
+color10 = #586e75
+
+# yellow
+color3  = #b58900
+color11 = #657b83
+
+# blue
+color4  = #268bd2
+color12 = #839496
+
+# magenta
+color5  = #d33682
+color13 = #6c71c4
+
+# cyan
+color6  = #2aa198
+color14 = #93a1a1
+
+# white
+color7  = #eee8d5
+color15 = #fdf6e3
+
