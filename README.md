@@ -1,7 +1,7 @@
 # linux-themer-electron
 
-> A simple prompt for switching linux themes.
-
+> A simple prompt for switching linux dotfiles.
+![screenshot](screenshot.png)
 #### Build Setup
 
 ``` bash
