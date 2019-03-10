@@ -12,10 +12,16 @@
       </div>
     </div>
     <div class="options">
-      <div class="left" :class="{ active: $store.getters['layout/isDarkSelected'] }">
+      <div class="left"
+        :class="{ active: $store.getters['layout/isDarkSelected'] }"
+        v-on:click="updateTheme('DARK')"
+      >
         <dark-theme/>
       </div>
-      <div class="right" :class="{ active: $store.getters['layout/isLightSelected'] }">
+      <div class="right"
+        :class="{ active: $store.getters['layout/isLightSelected'] }"
+         v-on:click="updateTheme('LIGHT')"
+      >
         <light-theme/>
       </div>
     </div>
@@ -53,8 +59,8 @@
           this.updateTheme()
         }
       },
-      updateTheme () {
-        const selection = this.$store.state.layout.selection
+      updateTheme (clickSelection) {
+        const selection = clickSelection || this.$store.state.layout.selection
 
         if (selection === 'DARK') {
           require('electron').ipcRenderer.send('selection', 2)

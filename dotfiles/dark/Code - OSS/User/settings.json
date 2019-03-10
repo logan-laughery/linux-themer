@@ -1,0 +1,14 @@
+{
+    "workbench.statusBar.visible": true,
+    "window.menuBarVisibility": "toggle",
+    "window.titleBarStyle": "native",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorCustomizations": {
+        "tab.inactiveBackground": "#32444B",
+        "editor.background": "#263238",
+        "activityBar.background": "#263238",
+        "list.inactiveSelectionBackground": "#263238",
+        "sideBar.background": "#32444B",
+        "statusBar.background": "#32444B"
+    }
+}
