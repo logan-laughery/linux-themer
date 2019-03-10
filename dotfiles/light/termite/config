@@ -32,9 +32,9 @@ font = Monospace 10
 [colors]
 
 # special
-foreground      = #657b83
-foreground_bold = #657b83
-cursor          = #657b83
+foreground      = #626262
+foreground_bold = #626262
+cursor          = #626262
 background      = #fdf6e3
 
 # black
